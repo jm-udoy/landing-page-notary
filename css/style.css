@@ -1,0 +1,459 @@
+
+/* common start */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* common end */
+
+/*Header start*/
+header{
+	padding: 15px 0;
+}
+
+
+.container {
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 15%;
+	margin-top: 9px;
+
+}
+
+.logo a img{
+	width: 100%;
+
+}
+
+.menu {
+	float: right;
+	width: 75%;
+	margin-top: 10px;
+
+}
+
+.menu ul{
+	float: right;
+
+}
+
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #535D69;
+	text-decoration: none;
+	padding: 0px 15px;
+	display: inline-block;
+	transition: .3s;
+
+}
+
+.menu ul li a:hover {
+	color: #BD233F;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+
+/*Header end*/
+
+/*banner start */
+.banner{
+	background-image: url(../images/business2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+}
+.b_content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 50%;
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size: 58px;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.b_content button{
+	width: 260px;
+	height: 50px;
+	background-color: #BE2342;
+	border: none;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
+
+
+/*work section start*/
+.work_wrapper{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.work_wrapper h2{
+	font-family: sans-serif;
+	font-size: 34px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+.work_wrapper p{
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	padding: 0 15%;
+}
+/*work section end*/
+
+/*service start*/
+.service_wrapper{
+	margin-top: 150px;
+
+		/*border: 1px solid red;*/
+}
+.s_single{
+	width: 30%;
+	float: left;
+	padding-right: 5%;
+	/*border: 1px solid red;*/
+}
+
+.s_single:last-child{
+	padding-right: 0;
+}
+.s_icon{
+	width: 60%;
+	margin: 0 auto;
+}
+.s_icon img{
+	width: 100%;
+}
+
+.s_single p{
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: #413F3F;
+	font-weight: 700;
+	padding: 0 10%;
+	margin-top: 20px;
+}
+/*service end*/
+
+
+/*learn start*/
+.learn_wrapper {
+	margin-top: 150px;
+	/*float: left;*/
+	overflow: hidden;
+}
+
+.sec_left {
+	width: 50%;
+	float: left;
+}
+.sec_left h2{
+	font-family: sans-serif;
+    font-size: 25px;
+    /* text-align: center; */
+    color: #3D3D3D;
+}
+.sec_left p{
+	font-family: sans-serif;
+    font-size: 18px;
+    /* text-align: center; */
+    color: #3D3D3D;
+    padding-right: 35%;
+    margin-top: 20px;
+}
+.sec_left button{
+	width: 200px;
+	height: 50px;
+	background-color: #BE2342;
+	border: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.sec_right {
+	width: 50%;
+	float: right;
+}
+
+.sec_right iframe{
+	width: 100%;
+}
+.sec_right:hover{
+	box-shadow: 0px 5px 29px -6px rgba(0,0,0,0.47);
+}
+/*learn end*/
+
+
+/*product section start*/
+.p_single{
+	width: 30%;
+	float: left;
+	padding-right: 5%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.p_single:last-child{
+	padding-right: 0;
+}
+.p_single:nth-child(3){
+	padding-right: 0;
+}
+
+.p_single:nth-child(1){
+	margin-top: 0;
+}
+.p_single:nth-child(2){
+	margin-top: 0;
+}
+.p_single:nth-child(3){
+	margin-top: 0;
+}
+.p_icon{
+	width: 20%;
+	margin: 0 auto;
+}
+.p_icon img{
+	width: 100%;
+}
+.p_single h3{
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: #413F3F;
+	font-weight: 700;
+	padding: 0 10%;
+	margin-top: 20px;
+
+}
+.p_single p{
+	font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -8px;
+    padding: 0 8%;	
+}
+    
+/*product section end*/
+
+
+
+
+/*see all start*/
+.see_all{}
+.see_all a{
+	text-decoration: none;
+}
+.see_all h3{
+	font-family: sans-serif;
+    font-size: 15px;
+    color: #BB2540;
+    text-align: center;
+    margin: 80px;
+}
+/*see all end*/
+
+
+
+
+/*contact start*/
+
+.contant_wrapper {
+	background-color: #090909;
+	padding: 70px 0;
+}
+
+.c_left {
+	width: 35%;
+	/*height: 200px;*/
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.c_left_text {
+}
+.c_left_text ul{
+	padding: 0;
+}
+.c_left_text ul li{
+	list-style: none;
+	font-family: sans-serif;
+    font-size: 18px;
+	color: #555D6A;
+	margin-top: 8px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.c_left_text ul li:hover{
+	color: #AA130C;
+}
+.c_icon_color{
+	color: #BB2532;
+}
+.c_left_icons {
+	margin-top: 50px;
+}
+
+.c_left_icons ul{
+	padding: 0;
+}
+
+.c_left_icons ul li{
+	width: 10%;
+    list-style: none;
+    float: left;
+    margin-right: 3%;
+
+}
+.c_left_icons ul li a img{
+	width: 100%;
+}
+
+.c_middle {
+	width: 25%;
+	/*height: 200px;*/
+	/*border: 1px solid red;*/
+	float: left;
+	margin-left: 2.5%;
+}
+
+
+
+.c_middle ul{
+	padding: 0;
+}
+
+.c_middle ul li a{
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+    font-size: 18px;
+	color: #555D6A;
+	margin-top: 8px;
+	transition: 1s;
+	cursor: pointer;
+}
+.c_middle ul li{
+	list-style: none;
+	font-family: sans-serif;
+    font-size: 18px;
+	color: #555D6A;
+	margin-top: 8px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.c_middle ul li a:hover{
+	color: #AA130C;
+}
+
+.c_right {
+	width: 35%;
+	/*height: 200px;*/
+	/*border: 1px solid red;*/
+	float: right;
+}
+
+.c_right p{
+	font-family: sans-serif;
+    font-size: 18px;
+	color: #555D6A;
+}
+
+.subscribe {
+	margin-top: 70px;
+}
+
+
+.subscribe input{
+	background-color: #090909;
+	font-family: sans-serif;
+    font-size: 18px;
+    border: 1px solid #535D69;
+    width: 60%;
+    height: 40px;
+    color: #535D69;
+}
+
+.subscribe button{
+	background-color: #BB2532;
+    border: none;
+    width: 35%;
+    height: 45px;
+    margin-left: -1%;
+}
+
+.c_text{
+	font-family: sans-serif;
+    font-size: 20px;
+	color: #BB2532;
+}
+
+
+/*contact end*/
+
+
+
+
+
+
+/*footer start*/
+footer{
+	background-color: #535D69;
+	padding: 30px 0;
+}
+.f_text{
+	text-align: center;
+}
+.f_text p{
+	font-family: sans-serif;
+	margin: 0;
+	color: white;
+}
+
+/*footer end*/
